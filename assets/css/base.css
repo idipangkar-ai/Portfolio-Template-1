@@ -1,0 +1,58 @@
+:root {
+  --primary-color: #06141b;
+  --secondary-color: #11212d;
+  --tertiary-color: #253745;
+  --quaternary-color: #4a5c6a;
+  --quinary-color: #9ba8ab;
+  --senary-color: #ccd0cf;
+
+  --if-needed-color: #2ad8ad;
+
+  --space-mono-regular: "Space Mono", monospace;
+  --italianno-regular: "Italianno", cursive;
+  --josefin-sans: "Josefin Sans", sans-serif;
+  --merienda: "Merienda", cursive;
+
+  --font-weight-400: 400;
+  --font-weight-700: 700;
+
+  --text-color: #000000;
+  --bg-color: #222222;
+
+  --body-font: "Poppins", sans-serif;
+  --normal-font-size: 0.938rem;
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --normal-font-size: 1rem;
+  }
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* // This defines what 1rem is //1 rem = 10px; 10px/16px = 62.5% */
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: var(--space-mono-regular);
+  font-weight: var(--font-weight-400);
+  line-height: 1.7;
+  font-size: 1.6rem;
+  color: var(--quinary-color);
+  background-color: var(--primary-color);
+}
+
+::selection {
+  background-color: var(--quinary-color);
+  color: var(--secondary-color);
+}

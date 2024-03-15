@@ -1,0 +1,120 @@
+.contact-section {
+  margin-top: 16rem;
+  margin-bottom: 6rem;
+}
+.contact-container {
+  max-width: 114rem;
+  margin: auto;
+  padding: 4rem 2rem;
+  background: rgba(rgb(74, 92, 106), 0.3);
+  border-radius: 1.6rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /* border: 1px solid rgba(255, 255, 255, 0.2); */
+}
+
+.contact-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.contact-line {
+  width: 200px;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  ); /* Rainbow gradient */
+}
+
+.contact-title {
+  padding: 0 20px;
+  font-size: 3rem;
+  color: var(--tertiary-color);
+  font-family: var(--font-josefin-sans); /* Using the specified font */
+}
+
+.contact-flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid-container {
+  width: 48%; /* Adjust width as needed */
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: var(--secondary-color);
+
+  border-radius: 0.8rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.grid-container h2 {
+  margin-top: 0;
+  color: var(--quaternary-color);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: var(--tertiary-color);
+  padding: 20px;
+  text-align: center;
+}
+
+.form-container {
+  width: 48%; /* Adjust width as needed */
+
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: var(--secondary-color);
+
+  border-radius: 0.8rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.form-container h2 {
+  margin-top: 0;
+  color: var(--quaternary-color);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--quinary-color);
+  border-radius: 5px;
+  background-color: var(--tertiary-color);
+  color: var(--quaternary-color);
+}
+
+.contact-form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--quinary-color);
+  color: var(--quaternary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

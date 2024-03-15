@@ -1,0 +1,164 @@
+.expertise-section {
+  margin-top: 8rem;
+  margin-bottom: 6rem;
+}
+
+.expertise-container {
+  width: 960px;
+  margin: auto;
+
+  padding: 2rem 2rem;
+  background: rgba(rgb(74, 92, 106), 0.4);
+  border-radius: 1.6rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /* border: 1px solid rgba(255, 255, 255, 0.2); */
+}
+
+.glass-bg {
+  padding: 2rem 2rem !important;
+  background: rgba(rgb(74, 92, 106), 0.2);
+  border-radius: 0.8rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.skills {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 70px);
+  margin: 20px;
+}
+.skl {
+  text-align: center;
+  font-size: 4rem;
+  font-family: var(--josefin-sans);
+}
+.sklLine {
+  position: relative;
+  bottom: 8px;
+  visibility: hidden;
+  padding-left: 6px;
+  color: greenyellow;
+}
+.ProgWidth {
+  padding: 0px 20px;
+}
+.skillDiv {
+  height: 5px;
+  width: 100%;
+  background-color: gray;
+}
+.skillBar {
+  display: block;
+  height: 5px;
+  background-color: rgb(26, 204, 19);
+}
+.p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.htmlBar {
+  width: 70%;
+  animation: html 3s 1s 5 forwards;
+}
+.cssBar {
+  width: 70%;
+  animation: css 3s 1s 5 forwards;
+}
+.jsBar {
+  width: 75%;
+  animation: js 3s 1s 5 forwards;
+}
+
+.javaBar {
+  width: 85%;
+  animation: java 3s 1s 5 forwards;
+}
+.ccpBar {
+  width: 80%;
+  animation: ccp 3s 1s 5 forwards;
+}
+.reactBar {
+  width: 10%;
+  animation: react 3s 1s 5 forwards;
+}
+.nodeBar {
+  width: 35%;
+  animation: node 3s 1s 5 forwards;
+}
+.sqlBar {
+  width: 85%;
+  animation: sql 3s 1s 5 forwards;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes js {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes java {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes ccp {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes node {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 35%;
+  }
+}
+
+@keyframes sql {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}

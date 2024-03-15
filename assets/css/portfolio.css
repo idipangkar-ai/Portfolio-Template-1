@@ -1,0 +1,139 @@
+.portfolio-section {
+  margin-top: 16rem;
+  margin-bottom: 6rem;
+  text-align: center;
+  padding: 20px;
+  background-color: var(--primary-color);
+  color: var(--quinary-color);
+}
+
+.portfolio-container {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.portfolio-navbar {
+  margin-bottom: 20px;
+}
+
+.portfolio-nav-bar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.portfolio-nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  margin-right: 10px;
+}
+
+.portfolio-link {
+  color: var(--senary-color);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.portfolio-link:hover {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: var(--tertiary-color);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.portfolio-grid-container {
+  margin-top: 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio-grid-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 2rem;
+}
+
+.portfolio-grid-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+  background: rgba(#0f97ff, 0.8);
+  border-radius: 0.8rem;
+  box-shadow: 0 2px 6px rgba(10, 255, 35, 0.4);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.portfolio-grid-link {
+  color: var(--senary-color);
+  text-align: center;
+  padding: 20px;
+  flex: 1;
+  text-decoration: none;
+}
+
+.p-f-a-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.8rem;
+}
+
+.portfolio-grid-list {
+  position: relative;
+}
+
+.portfolio-grid-link {
+  position: relative;
+}
+
+.portfolio-grid-link {
+  position: relative;
+}
+.portfolio-grid-link img {
+  transition: transform 0.3s ease;
+}
+
+.portfolio-grid-link:hover img {
+  transform: scale(1.3);
+}
+
+.card-title {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  color: var(--tertiary-color);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.card-details {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.view-btn {
+  margin-top: 10px;
+  background-color: var(--quaternary-color);
+  color: var(--senary-color);
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-btn:hover {
+  color: var(--primary-color);
+}

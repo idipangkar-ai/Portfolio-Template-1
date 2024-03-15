@@ -1,0 +1,60 @@
+/* <-- Header and Navbar Section Style Starts --> */
+.header {
+  background-color: var(--secondary-color);
+  padding: 20px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  height: 3rem;
+  width: auto;
+  border-radius: 50%;
+}
+
+.header-nav-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header-nav-list {
+  margin-left: auto;
+}
+
+.header-nav-link {
+  text-decoration: none;
+  color: var(--quinary-color);
+  margin-right: 20px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.header-nav-link:hover {
+  color: var(--senary-color);
+}
+
+.header-nav-link::after {
+  content: "";
+  display: block;
+  width: 0; /* Initially set to 0 */
+  height: 1.5px;
+  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.header-nav-link:hover::after {
+  width: 98%;
+  background-color: var(--quaternary-color);
+}
+/* <-- Header and Navbar Section Style Ends --> */
